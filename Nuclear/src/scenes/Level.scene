@@ -1,0 +1,990 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "7d5827fd-34f6-473f-90e0-b9424a51d5fa",
+            "label": "dino",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 250,
+            "hitArea.height": 250,
+            "texture": {
+                "key": "dino"
+            },
+            "x": 640,
+            "y": 288,
+            "visible": false,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "f10cc69a-251a-4bca-81de-f36affc5660b",
+                    "label": "onPointerDownScript",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "56235873-9538-4e47-ad25-cd1e90b15b55",
+                            "label": "pushActionScript"
+                        }
+                    ]
+                },
+                {
+                    "prefabId": "7028a0e2-cd14-44b7-b2a4-68dac16ece00",
+                    "id": "462f8b1c-5491-4b71-bfd9-2117963748b4",
+                    "label": "onAwakeScript",
+                    "list": [
+                        {
+                            "prefabId": "3d337935-cdca-4937-9126-9f75bc2486de",
+                            "id": "cbb22a0e-7823-45c8-a238-90a531752c00",
+                            "unlock": [
+                                "from"
+                            ],
+                            "label": "moveInSceneActionScript",
+                            "from": "TOP",
+                            "components": [
+                                "DurationConfigComp"
+                            ],
+                            "DurationConfigComp.duration": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "1f21f10c-487c-477e-95e1-56d8731e0cb5",
+            "label": "primer_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Primer frame"
+            },
+            "x": 645,
+            "y": 359
+        },
+        {
+            "type": "Image",
+            "id": "0436c611-1840-4134-9e0b-19db4c144867",
+            "label": "boton1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton1"
+            },
+            "x": 620,
+            "y": 549,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "5a1b273f-db2d-4fdf-ad72-36f3f2eb40ff",
+                    "label": "onPointerDownScript_1",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "d9c2fb1a-0d15-48e8-b853-cd0929d8d78d",
+                            "label": "pushActionScript_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "ee3febee-de72-4431-bea1-9a564999e9f1",
+            "label": "segundo_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "segundo frame"
+            },
+            "x": 641,
+            "y": 360
+        },
+        {
+            "type": "Image",
+            "id": "a1e4ff59-929f-49df-bac0-da6ac4ad75c9",
+            "label": "boton2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton2"
+            },
+            "x": 629,
+            "y": 340,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "51bb0232-93c1-4c51-8190-ae37358824d5",
+                    "label": "onPointerDownScript_2",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "73bb8d31-4dca-4398-9a2c-2a99e92c723c",
+                            "label": "pushActionScript_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "22f69fbe-417c-4dc5-8816-d67eb180bf2a",
+            "label": "tercer_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "tercer frame"
+            },
+            "x": 640,
+            "y": 360
+        },
+        {
+            "type": "Image",
+            "id": "3893ffcd-4f15-4bf6-93a0-2de09c860158",
+            "label": "boton_novale3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton novale3"
+            },
+            "x": 638,
+            "y": 427,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "7f380f5e-970b-4c9b-ad32-0f9680a66dba",
+                    "label": "onPointerDownScript_3",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "24267334-5933-4cec-9462-493d8a99e09a",
+                            "label": "pushActionScript_3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "bec7ce05-41fc-4dd2-946e-f6f5ff266c08",
+            "label": "boton_novale2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton novale2"
+            },
+            "x": 638,
+            "y": 491,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "0798cf42-9968-4684-9e74-f9a2120003c5",
+                    "label": "onPointerDownScript_4",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "b0a6622b-475c-4bbb-8dbe-070a6102a74b",
+                            "label": "pushActionScript_4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "4f61dff7-e3d1-4f6c-bb97-01691decf3ef",
+            "label": "boton_vale1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton vale1"
+            },
+            "x": 638,
+            "y": 622,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "5d3604b5-68fa-4b3c-9819-aaf94807b5b6",
+                    "label": "onPointerDownScript_5",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "fe26d749-e48e-49e1-bb3b-68fd7983d484",
+                            "label": "pushActionScript_5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "691ebb48-2048-48d4-995a-52547cc40c96",
+            "label": "boton_novale1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton novale1"
+            },
+            "x": 638,
+            "y": 555,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "11363a0e-c1a9-4d96-87d2-df53eded5100",
+                    "label": "onPointerDownScript_6",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "4a55334f-472d-469b-b4c8-e29190fe6925",
+                            "label": "pushActionScript_6"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "9c765c9c-681e-4e23-8670-2b3a752ca1cd",
+            "label": "cuarto_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "cuarto frame"
+            },
+            "x": 640,
+            "y": 360
+        },
+        {
+            "type": "Image",
+            "id": "9b89b16a-0ca8-4fe5-bcb1-239bc265fb94",
+            "label": "boton3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton3"
+            },
+            "x": 879,
+            "y": 290,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "88b409a0-3516-4b1f-8341-18dedbe48649",
+                    "label": "onPointerDownScript_7",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "2879dc61-aee7-49b0-a280-186c5b4db491",
+                            "label": "pushActionScript_7"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "df49d1aa-19ba-4cc6-8521-02f182326768",
+            "label": "quinto_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "quinto frame"
+            },
+            "x": 640,
+            "y": 360
+        },
+        {
+            "type": "Image",
+            "id": "36ef5bc9-5875-4780-86af-18e394a88183",
+            "label": "boton4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton4"
+            },
+            "x": 397,
+            "y": 352,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "4e2de860-ffe3-4e9c-bf2c-7562b2fa2964",
+                    "label": "onPointerDownScript_8",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "5ec50810-ee38-4084-b60a-bbe88181dbbf",
+                            "label": "pushActionScript_8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "73368529-41af-41f1-b522-a6640092e5b0",
+            "label": "sexto_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "sexto frame"
+            },
+            "x": 640,
+            "y": 358
+        },
+        {
+            "type": "Image",
+            "id": "6eb373d1-8a56-4735-980e-4312143b78ad",
+            "label": "boton5",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton5"
+            },
+            "x": 873,
+            "y": 345,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "f9c8b6eb-d4ad-4bdc-ab52-8f7db89c0031",
+                    "label": "onPointerDownScript_9",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "d88b206f-3789-4455-aeb8-bb84c7908604",
+                            "label": "pushActionScript_9"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "9149e0f3-0a30-4f70-8662-1fd9affc7799",
+            "label": "septimo_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "septimo frame"
+            },
+            "x": 638,
+            "y": 360
+        },
+        {
+            "type": "Image",
+            "id": "61bbd383-fa5a-4419-8aa9-46da4eacc1ce",
+            "label": "boton_novale6",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton novale6"
+            },
+            "x": 618,
+            "y": 419,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "1484c975-df01-40b1-9bc6-4beb14f5dc9a",
+                    "label": "onPointerDownScript_10",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "6034470a-2aca-4936-865a-2d5fb62b2c0c",
+                            "label": "pushActionScript_10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "5cac35d3-bbf8-49cc-ad1b-15a392d8531b",
+            "label": "boton_novale5",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton novale5"
+            },
+            "x": 621,
+            "y": 493,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "4f33e927-3dd8-4e97-8ebf-b8d9d20594dc",
+                    "label": "onPointerDownScript_11",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "ce587035-22b8-475c-abb1-e8e88e80eda3",
+                            "label": "pushActionScript_11"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "449a7551-f8e5-491b-91f7-f0f1ef8b4efc",
+            "label": "boton_vale2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton vale2"
+            },
+            "x": 620,
+            "y": 563,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "98566864-9954-4fc6-a4c0-c40029040314",
+                    "label": "onPointerDownScript_12",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "434282ed-aa14-477d-8f01-244b5f6ea40d",
+                            "label": "pushActionScript_12"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "1f70f173-1d34-4b4f-9e88-c06a3a6fa289",
+            "label": "boton_novale4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton novale4"
+            },
+            "x": 618,
+            "y": 636,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "9b847dc5-9220-45a9-a22c-68364b39aae3",
+                    "label": "onPointerDownScript_13",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "8073bc8e-c931-4e24-b0ab-bc159af491b0",
+                            "label": "pushActionScript_13"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "9fba591c-7a4a-45b5-bc3b-c4a0b6c9c06d",
+            "label": "octavo_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "octavo frame"
+            },
+            "x": 641,
+            "y": 360
+        },
+        {
+            "type": "Image",
+            "id": "3ba923b2-8e49-4a4b-bd4d-6630949e28be",
+            "label": "boton6",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton6"
+            },
+            "x": 998,
+            "y": 300,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "7b6c441e-fe16-4df6-943e-f959520e56c1",
+            "label": "noveno_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "noveno frame"
+            },
+            "x": 638,
+            "y": 360
+        },
+        {
+            "type": "Image",
+            "id": "947560ca-8798-4993-8dc7-1668019dfa9e",
+            "label": "boton7",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton7"
+            },
+            "x": 597,
+            "y": 334,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "2e08ebc5-291f-4849-a291-29a29b5473e7",
+                    "label": "onPointerDownScript_14",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "68ceb813-87c8-4290-98a1-4869066e0234",
+                            "label": "pushActionScript_14"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "06fdd45a-41b4-4b63-8211-3327f748b937",
+            "label": "decimo_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "decimo frame"
+            },
+            "x": 641,
+            "y": 360
+        },
+        {
+            "type": "Image",
+            "id": "ba7534fe-f865-4350-9e7d-58f4513a6f59",
+            "label": "boton_novale7",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton novale7"
+            },
+            "x": 614,
+            "y": 488,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "296f9a4a-69df-4b8d-b32c-088ca3fcbb3f",
+                    "label": "onPointerDownScript_15",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "f7a60656-d566-42d2-8f6e-1583e2383159",
+                            "label": "pushActionScript_15"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "52bcd4e0-5cf2-4169-8ed4-339115add61c",
+            "label": "boton_vale3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton vale3"
+            },
+            "x": 612,
+            "y": 557,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "c2e5a4cc-d798-450f-83c6-2d099b2599e0",
+                    "label": "onPointerDownScript_16",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "aff24bf4-96df-4a24-9d90-a237cd89c1e6",
+                            "label": "pushActionScript_16"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "2ed54794-1181-4723-bf79-b5c1805db793",
+            "label": "boton_novale9",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton novale9"
+            },
+            "x": 611,
+            "y": 621,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "5eb36883-aa61-4a29-ae93-49dbc9b74141",
+                    "label": "onPointerDownScript_17",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "8cec6e19-71ac-47be-9c09-aa94d8212e3e",
+                            "label": "pushActionScript_17"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "7be6f831-86df-40e4-8592-ecb906940236",
+            "label": "boton_novale8",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton novale8"
+            },
+            "x": 615,
+            "y": 424,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "b7ba9b0e-82e2-4692-8f63-8888443630aa",
+                    "label": "onPointerDownScript_18",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "a899ff04-b297-43ea-b3fa-be85f2459aa6",
+                            "label": "pushActionScript_18"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "780433f3-45cb-469d-8f1d-4596d1c2eb5a",
+            "label": "onceavo_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "onceavo frame"
+            },
+            "x": 638,
+            "y": 360
+        },
+        {
+            "type": "Image",
+            "id": "859b1e13-3808-4618-882c-f0a7ebd31ed9",
+            "label": "boton8",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton8"
+            },
+            "x": 260,
+            "y": 337,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "3ff9abc0-eae1-4e57-817c-de3d8e095243",
+                    "label": "onPointerDownScript_19",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "87c20333-2f94-4798-a3f9-e6671475da3e",
+                            "label": "pushActionScript_19"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "acffa4e6-ae4f-4c56-8588-99d8683d171d",
+            "label": "doceavo_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "doceavo frame"
+            },
+            "x": 640,
+            "y": 363
+        },
+        {
+            "type": "Image",
+            "id": "42635b67-f469-45b3-abe6-2e29550eba90",
+            "label": "boton_novale12",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton novale12"
+            },
+            "x": 597,
+            "y": 640,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "521b83d8-864a-4e6b-ad8c-22798e2df3b4",
+                    "label": "onPointerDownScript_20",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "665d97e9-e977-46c5-9299-1a9bdbbf7227",
+                            "label": "pushActionScript_20"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "3655696b-83a0-4ff0-936d-af179cb5f4d6",
+            "label": "boton_novale10",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton novale10"
+            },
+            "x": 597,
+            "y": 429,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "289de402-140c-4926-825e-469e0eabea27",
+                    "label": "onPointerDownScript_22",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "b4673962-5844-42ea-bb0e-e12664e13561",
+                            "label": "pushActionScript_22"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "ffd398d0-faa2-4a53-b6bf-36e34730db29",
+            "label": "boton_novale11",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton novale11"
+            },
+            "x": 601,
+            "y": 570,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "106278c3-eb36-4f13-ae83-6ab9de39474c",
+                    "label": "onPointerDownScript_21",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "c6bc1021-ba77-4cb8-a134-9f051f3d8bef",
+                            "label": "pushActionScript_21"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "01545d35-e880-4170-bc0a-d5fa425c9845",
+            "label": "boton_vale4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton vale4"
+            },
+            "x": 597,
+            "y": 500,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "2fc2d980-59d9-4eda-8621-09997cc6f08b",
+                    "label": "onPointerDownScript_23",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "837a715b-653d-414a-b62f-16480f6c702d",
+                            "label": "pushActionScript_23"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "d8d90708-e6d5-41cf-bc06-9ffdef291325",
+            "label": "treceavo_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "treceavo frame"
+            },
+            "x": 640,
+            "y": 357
+        },
+        {
+            "type": "Image",
+            "id": "3b7f4089-2bc0-4e43-af90-bcc663d7d6c4",
+            "label": "boton9",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton9"
+            },
+            "x": 937,
+            "y": 331,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "bed46a3a-dfe8-4c37-812c-fb79623f49ed",
+                    "label": "onPointerDownScript_24",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "b69a2485-8511-4647-9cf1-ac6d0f8a5d08",
+                            "label": "pushActionScript_24"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "1ddd8f46-fbf0-4e5f-a308-e1991b8951f2",
+            "label": "catorceavo_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "catorceavo frame"
+            },
+            "x": 643,
+            "y": 358
+        },
+        {
+            "type": "Image",
+            "id": "e3880fea-6e25-4b66-952b-114838220be0",
+            "label": "boton10",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton10"
+            },
+            "x": 304,
+            "y": 355,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "f87f1d88-da90-4d43-8e63-8991a59bc433",
+                    "label": "onPointerDownScript_25",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "25414d84-ab70-402b-b94e-36ab260b7c46",
+                            "label": "pushActionScript_25"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "5834adf5-4255-407a-aa91-491782df35e7",
+            "label": "quinceavo_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "quinceavo frame"
+            },
+            "x": 640,
+            "y": 360
+        },
+        {
+            "type": "Image",
+            "id": "096400cc-d890-41a8-8c43-96f49ef63f7a",
+            "label": "boton11",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton11"
+            },
+            "x": 283,
+            "y": 439,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "3284914d-d8b5-4062-a3fd-376841bdc158",
+                    "label": "onPointerDownScript_26",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "91e49c86-4fe6-4e8d-8e97-d06821512899",
+                            "label": "pushActionScript_26"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "dd1d633b-66ad-4823-ad79-fa51bbb8bc08",
+            "label": "dieciseisavo_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "dieciseisavo frame"
+            },
+            "x": 643,
+            "y": 358
+        },
+        {
+            "type": "Image",
+            "id": "e294bbd4-1cf5-42a2-9c1d-8c140299527f",
+            "label": "boton12",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton12"
+            },
+            "x": 316,
+            "y": 508,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "bcd23051-aec4-4831-bcb4-e82d8b3f92f3",
+                    "label": "onPointerDownScript_27",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "75d32969-7049-4ba7-8d7e-56d08941048d",
+                            "label": "pushActionScript_27"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "8f4830a5-f3b4-455a-ac09-f7d517578ecc",
+            "label": "diecisieteavo_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "diecisieteavo frame"
+            },
+            "x": 643,
+            "y": 363
+        },
+        {
+            "type": "Image",
+            "id": "b96d7ffc-31fb-4a9b-b1e3-00b6d8c88edb",
+            "label": "boton13",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "boton13"
+            },
+            "x": 937,
+            "y": 424,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "273fe61c-1147-4f39-984c-2521081336c9",
+                    "label": "onPointerDownScript_28",
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "12de4542-374c-436d-9762-c23d34492328",
+                            "label": "pushActionScript_28"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "cb61b2df-d83e-4c13-8464-32cb99b9242b",
+            "label": "dieciochoavo_frame",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "dieciochoavo frame"
+            },
+            "x": 641,
+            "y": 363
+        },
+        {
+            "type": "Image",
+            "id": "fc3dfcef-2d42-4232-8ba4-b80e93c830ab",
+            "label": "acabo_tiempo",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "acabo tiempo"
+            },
+            "x": 641,
+            "y": 358
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

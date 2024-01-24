@@ -1,0 +1,258 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/acabo tiempo.png",
+                "type": "image",
+                "key": "acabo tiempo"
+            },
+            {
+                "url": "assets/boton novale1.png",
+                "type": "image",
+                "key": "boton novale1"
+            },
+            {
+                "url": "assets/boton novale10.png",
+                "type": "image",
+                "key": "boton novale10"
+            },
+            {
+                "url": "assets/boton novale11.png",
+                "type": "image",
+                "key": "boton novale11"
+            },
+            {
+                "url": "assets/boton novale12.png",
+                "type": "image",
+                "key": "boton novale12"
+            },
+            {
+                "url": "assets/boton novale2.png",
+                "type": "image",
+                "key": "boton novale2"
+            },
+            {
+                "url": "assets/boton novale3.png",
+                "type": "image",
+                "key": "boton novale3"
+            },
+            {
+                "url": "assets/boton novale4.png",
+                "type": "image",
+                "key": "boton novale4"
+            },
+            {
+                "url": "assets/boton novale5.png",
+                "type": "image",
+                "key": "boton novale5"
+            },
+            {
+                "url": "assets/boton novale6.png",
+                "type": "image",
+                "key": "boton novale6"
+            },
+            {
+                "url": "assets/boton novale7.png",
+                "type": "image",
+                "key": "boton novale7"
+            },
+            {
+                "url": "assets/boton novale8.png",
+                "type": "image",
+                "key": "boton novale8"
+            },
+            {
+                "url": "assets/boton novale9.png",
+                "type": "image",
+                "key": "boton novale9"
+            },
+            {
+                "url": "assets/boton vale1.png",
+                "type": "image",
+                "key": "boton vale1"
+            },
+            {
+                "url": "assets/boton vale2.png",
+                "type": "image",
+                "key": "boton vale2"
+            },
+            {
+                "url": "assets/boton vale3.png",
+                "type": "image",
+                "key": "boton vale3"
+            },
+            {
+                "url": "assets/boton vale4.png",
+                "type": "image",
+                "key": "boton vale4"
+            },
+            {
+                "url": "assets/boton1.png",
+                "type": "image",
+                "key": "boton1"
+            },
+            {
+                "url": "assets/boton10.png",
+                "type": "image",
+                "key": "boton10"
+            },
+            {
+                "url": "assets/boton11.png",
+                "type": "image",
+                "key": "boton11"
+            },
+            {
+                "url": "assets/boton12.png",
+                "type": "image",
+                "key": "boton12"
+            },
+            {
+                "url": "assets/boton13.png",
+                "type": "image",
+                "key": "boton13"
+            },
+            {
+                "url": "assets/boton2.png",
+                "type": "image",
+                "key": "boton2"
+            },
+            {
+                "url": "assets/boton3.png",
+                "type": "image",
+                "key": "boton3"
+            },
+            {
+                "url": "assets/boton4.png",
+                "type": "image",
+                "key": "boton4"
+            },
+            {
+                "url": "assets/boton5.png",
+                "type": "image",
+                "key": "boton5"
+            },
+            {
+                "url": "assets/boton6.png",
+                "type": "image",
+                "key": "boton6"
+            },
+            {
+                "url": "assets/boton7.png",
+                "type": "image",
+                "key": "boton7"
+            },
+            {
+                "url": "assets/boton8.png",
+                "type": "image",
+                "key": "boton8"
+            },
+            {
+                "url": "assets/boton9.png",
+                "type": "image",
+                "key": "boton9"
+            },
+            {
+                "url": "assets/catorceavo frame.png",
+                "type": "image",
+                "key": "catorceavo frame"
+            },
+            {
+                "url": "assets/cuarto frame.png",
+                "type": "image",
+                "key": "cuarto frame"
+            },
+            {
+                "url": "assets/decimo frame.png",
+                "type": "image",
+                "key": "decimo frame"
+            },
+            {
+                "url": "assets/dieciochoavo frame.png",
+                "type": "image",
+                "key": "dieciochoavo frame"
+            },
+            {
+                "url": "assets/dieciseisavo frame.png",
+                "type": "image",
+                "key": "dieciseisavo frame"
+            },
+            {
+                "url": "assets/diecisieteavo frame.png",
+                "type": "image",
+                "key": "diecisieteavo frame"
+            },
+            {
+                "url": "assets/dino.png",
+                "key": "dino",
+                "type": "image"
+            },
+            {
+                "url": "assets/doceavo frame.png",
+                "type": "image",
+                "key": "doceavo frame"
+            },
+            {
+                "url": "assets/noveno frame.png",
+                "type": "image",
+                "key": "noveno frame"
+            },
+            {
+                "url": "assets/octavo frame.png",
+                "type": "image",
+                "key": "octavo frame"
+            },
+            {
+                "url": "assets/onceavo frame.png",
+                "type": "image",
+                "key": "onceavo frame"
+            },
+            {
+                "url": "assets/Primer frame.png",
+                "type": "image",
+                "key": "Primer frame"
+            },
+            {
+                "url": "assets/quinceavo frame.png",
+                "type": "image",
+                "key": "quinceavo frame"
+            },
+            {
+                "url": "assets/quinto frame.png",
+                "type": "image",
+                "key": "quinto frame"
+            },
+            {
+                "url": "assets/segundo frame.png",
+                "type": "image",
+                "key": "segundo frame"
+            },
+            {
+                "url": "assets/septimo frame.png",
+                "type": "image",
+                "key": "septimo frame"
+            },
+            {
+                "url": "assets/sexto frame.png",
+                "type": "image",
+                "key": "sexto frame"
+            },
+            {
+                "url": "assets/tercer frame.png",
+                "type": "image",
+                "key": "tercer frame"
+            },
+            {
+                "url": "assets/treceavo frame.png",
+                "type": "image",
+                "key": "treceavo frame"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}
